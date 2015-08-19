@@ -1,0 +1,14 @@
+@media screen and (max-width: $breakpoint-max) {
+	.carousel {
+		display: none;
+	}
+}
+
+@media screen and (min-width: $breakpoint-min) {
+	.carousel {
+		display: block;
+		img {
+			width: 100%;
+		}
+	}
+}

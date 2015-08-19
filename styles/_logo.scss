@@ -1,0 +1,15 @@
+@media screen and (max-width: $breakpoint-max) {
+	.walrus {
+		display: none;
+	}
+	.title {
+		width: 90%;
+		float: right;
+	}
+}
+
+@media screen and (min-width: $breakpoint-min) {
+	.walrus {
+		display: block;
+	}
+}

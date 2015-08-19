@@ -1,0 +1,27 @@
+article li {
+	height: auto;
+	position: absolute;
+}
+.recipe-title { 
+	position: relative;
+	section {
+		color: #fff;
+		width: 100%;
+		padding: .625rem;
+		background: rgba(0,0,0,0.5);
+		position: absolute;
+		bottom: .04rem;
+		h2 {
+			font-family: 'Architects Daughter', cursive;
+			font-size: 1.8rem;
+			line-height: 1.6rem;
+			padding-bottom: 0;
+		}
+		p {
+			letter-spacing: .19rem;
+			font-size: .9rem;
+			font-weight: 300;
+			line-height: 1.2rem;
+		}
+	}
+}

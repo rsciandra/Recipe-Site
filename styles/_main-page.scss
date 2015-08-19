@@ -1,0 +1,64 @@
+ul {
+	list-style: none;
+	li {
+		overflow: hidden;
+	}
+	img {
+		width: 100%;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+article {
+	padding: 19% 0 0 0;
+	ul {
+		li {
+			border-bottom: 2px solid #fff;
+		}
+	}
+}
+// h1 {
+// 	color: $light-blue;
+// 	font-family: 'Architects Daughter', cursive;
+// 	font-size: 2rem;
+// 	font-weight: 900;
+// }
+footer {
+	background-color: $light-gray;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 2rem;
+	img {
+		padding: 2rem 0 0 0;
+		width: 40%;
+	}
+	h3 {
+		color: $light-blue;
+		font-family: 'Architects Daughter', cursive;
+		font-size: 2rem;
+		padding: .8rem 0;
+	}
+	ul {
+		padding: 0 0 .8rem;
+		li {
+			display: inline-block;
+			img {
+				padding: .3rem;
+				width: 15%;
+			}
+		}
+	}
+	p, a, li {
+		color: #3b3b3b;
+		letter-spacing: .19rem;
+		font-weight: 200;
+		font-size: .5rem;
+	}
+	p {
+		padding: .2rem;
+	}
+	a {
+		text-decoration: none;
+	}
+}

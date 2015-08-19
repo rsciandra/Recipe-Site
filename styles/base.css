@@ -1,0 +1,425 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, _reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 31, _reset.scss */
+body {
+  line-height: 1;
+  font-family: Helvetica Neue, sans-serif; }
+
+/* line 35, _reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 38, _reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 41, _reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 46, _reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, _global.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+/* line 5, _global.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 8, _global.scss */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 11, _global.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 1, _navigation.scss */
+nav {
+  position: fixed;
+  z-index: 9999; }
+  /* line 4, _navigation.scss */
+  nav ul {
+    height: 40px;
+    max-width: 767px;
+    margin: 0 auto;
+    display: none;
+    height: auto;
+    font-weight: 300;
+    letter-spacing: .15rem; }
+  /* line 13, _navigation.scss */
+  nav li {
+    display: inline;
+    float: left;
+    width: 100%;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid #fff; }
+  /* line 21, _navigation.scss */
+  nav a {
+    color: #fff;
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    background: #666666; }
+  /* line 29, _navigation.scss */
+  nav a:hover {
+    background: #444; }
+  /* line 32, _navigation.scss */
+  nav #pull {
+    display: block;
+    background: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    position: relative; }
+  /* line 38, _navigation.scss */
+  nav #pull:after {
+    content: "";
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem; }
+
+@media screen and (max-width: 767px) {
+  /* line 2, _logo.scss */
+  .walrus {
+    display: none; }
+
+  /* line 5, _logo.scss */
+  .title {
+    width: 90%;
+    float: right; } }
+@media screen and (min-width: 768px) {
+  /* line 12, _logo.scss */
+  .walrus {
+    display: block; } }
+@media screen and (max-width: 767px) {
+  /* line 2, _carousel.scss */
+  .carousel {
+    display: none; } }
+@media screen and (min-width: 768px) {
+  /* line 8, _carousel.scss */
+  .carousel {
+    display: block; }
+    /* line 10, _carousel.scss */
+    .carousel img {
+      width: 100%; } }
+/* line 1, _main-page.scss */
+ul {
+  list-style: none; }
+  /* line 3, _main-page.scss */
+  ul li {
+    overflow: hidden; }
+  /* line 6, _main-page.scss */
+  ul img {
+    width: 100%; }
+  /* line 9, _main-page.scss */
+  ul a {
+    text-decoration: none; }
+
+/* line 13, _main-page.scss */
+article {
+  padding: 19% 0 0 0; }
+  /* line 16, _main-page.scss */
+  article ul li {
+    border-bottom: 2px solid #fff; }
+
+/* line 27, _main-page.scss */
+footer {
+  background-color: #666666;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem; }
+  /* line 32, _main-page.scss */
+  footer img {
+    padding: 2rem 0 0 0;
+    width: 40%; }
+  /* line 36, _main-page.scss */
+  footer h3 {
+    color: #b1d2fd;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2rem;
+    padding: .8rem 0; }
+  /* line 42, _main-page.scss */
+  footer ul {
+    padding: 0 0 .8rem; }
+    /* line 44, _main-page.scss */
+    footer ul li {
+      display: inline-block; }
+      /* line 46, _main-page.scss */
+      footer ul li img {
+        padding: .3rem;
+        width: 15%; }
+  /* line 52, _main-page.scss */
+  footer p, footer a, footer li {
+    color: #3b3b3b;
+    letter-spacing: .19rem;
+    font-weight: 200;
+    font-size: .5rem; }
+  /* line 58, _main-page.scss */
+  footer p {
+    padding: .2rem; }
+  /* line 61, _main-page.scss */
+  footer a {
+    text-decoration: none; }
+
+/* line 1, _recipe-title.scss */
+article li {
+  height: auto;
+  position: absolute; }
+
+/* line 5, _recipe-title.scss */
+.recipe-title {
+  position: relative; }
+  /* line 7, _recipe-title.scss */
+  .recipe-title section {
+    color: #fff;
+    width: 100%;
+    padding: .625rem;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: .04rem; }
+    /* line 14, _recipe-title.scss */
+    .recipe-title section h2 {
+      font-family: 'Architects Daughter', cursive;
+      font-size: 1.8rem;
+      line-height: 1.6rem;
+      padding-bottom: 0; }
+    /* line 20, _recipe-title.scss */
+    .recipe-title section p {
+      letter-spacing: .19rem;
+      font-size: .9rem;
+      font-weight: 300;
+      line-height: 1.2rem; }
+
+/* line 1, _menu-icon.scss */
+#nav-icon {
+  width: 100%;
+  height: 2.1rem;
+  display: block;
+  position: relative;
+  top: 1rem;
+  left: .4rem;
+  cursor: pointer; }
+  /* line 9, _menu-icon.scss */
+  #nav-icon span {
+    display: block;
+    position: absolute;
+    height: .25rem;
+    width: 1.2rem;
+    background: #000;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0; }
+
+/* line 21, _menu-icon.scss */
+#nav-icon span:nth-child(1) {
+  top: 0px; }
+
+/* line 25, _menu-icon.scss */
+#nav-icon span:nth-child(2), #nav-icon span:nth-child(3) {
+  top: 6px; }
+
+/* line 30, _menu-icon.scss */
+#nav-icon span:nth-child(4) {
+  top: 12px; }
+
+/* line 34, _menu-icon.scss */
+#nav-icon.open span:nth-child(1) {
+  top: 6px;
+  width: 0%;
+  left: 25%; }
+
+/* line 40, _menu-icon.scss */
+#nav-icon.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 47, _menu-icon.scss */
+#nav-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* line 54, _menu-icon.scss */
+#nav-icon.open span:nth-child(4) {
+  top: 6px;
+  width: 0%;
+  left: 25%; }
+
+/* line 1, _recipe-page.scss */
+.recipe {
+  line-height: 2.3125rem;
+  text-align: center; }
+  /* line 4, _recipe-page.scss */
+  .recipe img {
+    padding: .3125rem 0 0 0;
+    width: 100%; }
+  /* line 8, _recipe-page.scss */
+  .recipe h1 {
+    font-family: 'Architects Daughter', cursive;
+    margin: 3.125rem 0 3.125rem;
+    font-size: 4rem;
+    line-height: 3.1rem; }
+  /* line 14, _recipe-page.scss */
+  .recipe h2 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 2rem; }
+  /* line 18, _recipe-page.scss */
+  .recipe ul, .recipe p {
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: .15rem;
+    color: #666666;
+    line-height: 1.5rem;
+    text-align: left;
+    padding: 0 2.2rem; }
+    /* line 28, _recipe-page.scss */
+    .recipe ul li, .recipe p li {
+      position: relative;
+      font-size: .9rem; }
+      /* line 31, _recipe-page.scss */
+      .recipe ul li span, .recipe p li span {
+        font-weight: bold; }
+  /* line 36, _recipe-page.scss */
+  .recipe section {
+    padding-bottom: 4rem; }
+
+/* line 1, _aboutme.scss */
+.profile {
+  line-height: 2.3125rem;
+  text-align: center; }
+  /* line 4, _aboutme.scss */
+  .profile img {
+    padding: .3125rem 0 0 0;
+    width: 100%; }
+  /* line 8, _aboutme.scss */
+  .profile h1 {
+    font-family: 'Architects Daughter', cursive;
+    margin: 3.125rem 0 3.125rem;
+    font-size: 4rem; }
+  /* line 13, _aboutme.scss */
+  .profile p {
+    display: block;
+    margin: 1.875rem auto;
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: .15rem;
+    color: #666666;
+    line-height: 1.75rem;
+    text-align: left;
+    padding: 0 2rem; }
+  /* line 24, _aboutme.scss */
+  .profile section {
+    padding-bottom: 4rem; }
+
+/* line 1, _contact.scss */
+.contact {
+  line-height: 2.2125rem;
+  text-align: center; }
+  /* line 4, _contact.scss */
+  .contact img {
+    padding: .3125rem 0 0 0;
+    width: 100%; }
+  /* line 8, _contact.scss */
+  .contact h1 {
+    font-family: 'Architects Daughter', cursive;
+    margin: 3.125rem 0 3.125rem;
+    font-size: 4rem;
+    line-height: 3.1rem; }
+  /* line 14, _contact.scss */
+  .contact form {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto; }
+    /* line 18, _contact.scss */
+    .contact form input[type=text] {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      font-weight: 300;
+      background-color: #f4f4f4;
+      width: 100%;
+      border-radius: 3px;
+      border: none;
+      border-style: inset;
+      border-width: 2px;
+      outline: none; }
+    /* line 31, _contact.scss */
+    .contact form textarea {
+      text-align: center;
+      width: 100%;
+      font-weight: 300;
+      padding: 10px;
+      background-color: #f4f4f4;
+      border-radius: 3px;
+      border-style: inset;
+      border-width: 2px;
+      outline: none;
+      resize: none; }
+  /* line 44, _contact.scss */
+  .contact button {
+    margin: 20px 0;
+    padding: 15px 30px;
+    background-color: #c4c4c4;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #434343;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    box-shadow: 0 -3px 0 0 #727272 inset;
+    outline: none;
+    width: 125px; }
+  /* line 59, _contact.scss */
+  .contact button:hover {
+    background-color: #b1d2fd;
+    color: white;
+    box-shadow: 0 -3px 0 0 #186eac inset;
+    outline: none; }
+  /* line 66, _contact.scss */
+  .contact button:active {
+    background-color: #b1d2fd;
+    box-shadow: none;
+    outline: none; }
+  /* line 71, _contact.scss */
+  .contact section {
+    padding-bottom: 4rem; }
