@@ -69,8 +69,10 @@ html {
 nav {
   position: fixed;
   z-index: 9999;
-  box-shadow: 0 0 .75rem #a3a3a3; }
-  /* line 5, _navigation.scss */
+  -webkit-box-shadow: 0 0 1rem #a3a3a3;
+  -moz-box-shadow: 0 0 1rem #a3a3a3;
+  box-shadow: 0 0 1rem #a3a3a3; }
+  /* line 7, _navigation.scss */
   nav ul {
     height: 40px;
     max-width: 959px;
@@ -79,7 +81,7 @@ nav {
     height: auto;
     font-weight: 300;
     letter-spacing: .15rem; }
-  /* line 14, _navigation.scss */
+  /* line 16, _navigation.scss */
   nav li {
     display: inline;
     float: left;
@@ -87,7 +89,7 @@ nav {
     float: left;
     position: relative;
     border-bottom: 1px solid #fff; }
-  /* line 22, _navigation.scss */
+  /* line 24, _navigation.scss */
   nav a {
     color: #fff;
     display: inline-block;
@@ -95,16 +97,16 @@ nav {
     text-align: center;
     width: 100%;
     background: #666666; }
-  /* line 30, _navigation.scss */
+  /* line 32, _navigation.scss */
   nav a:hover {
     background: #444; }
-  /* line 33, _navigation.scss */
+  /* line 35, _navigation.scss */
   nav #pull {
     display: block;
     background: rgba(255, 255, 255, 0.95);
     width: 100%;
     position: relative; }
-  /* line 39, _navigation.scss */
+  /* line 41, _navigation.scss */
   nav #pull:after {
     content: "";
     width: 60px;
@@ -207,29 +209,32 @@ h1 {
 /* line 7, _recipe-title.scss */
 .recipe-title {
   position: relative;
-  padding: .9375rem 1.875rem 0; }
+  padding: .9375rem 1.875rem; }
   /* line 10, _recipe-title.scss */
+  .recipe-title li {
+    border-top: 1px solid #000; }
+  /* line 13, _recipe-title.scss */
   .recipe-title a {
     float: left; }
-  /* line 13, _recipe-title.scss */
+  /* line 16, _recipe-title.scss */
   .recipe-title section {
     color: #000;
     padding: 10px 10px; }
-    /* line 16, _recipe-title.scss */
+    /* line 19, _recipe-title.scss */
     .recipe-title section h2 {
       font-family: 'Architects Daughter', cursive;
       font-size: 1.7rem;
       line-height: 1.8rem;
       padding-bottom: 10px;
       letter-spacing: .2rem; }
-    /* line 23, _recipe-title.scss */
+    /* line 26, _recipe-title.scss */
     .recipe-title section p {
       letter-spacing: .15rem;
       font-size: 1.1rem;
       font-weight: 300;
       color: #666666;
       line-height: 1.75rem; }
-    /* line 30, _recipe-title.scss */
+    /* line 33, _recipe-title.scss */
     .recipe-title section p:nth-child(3) {
       color: #000;
       padding-top: .6rem;
@@ -298,7 +303,7 @@ h1 {
 .recipe {
   line-height: 2.3125rem;
   text-align: center;
-  padding: 4.9rem 0; }
+  padding: 4.6rem 0; }
   /* line 5, _recipe-page.scss */
   .recipe img {
     width: 100%; }
