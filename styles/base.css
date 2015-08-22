@@ -69,9 +69,9 @@ html {
 nav {
   position: fixed;
   z-index: 9999;
-  -webkit-box-shadow: 0 0 1rem #a3a3a3;
-  -moz-box-shadow: 0 0 1rem #a3a3a3;
-  box-shadow: 0 0 1rem #a3a3a3; }
+  -webkit-box-shadow: 0 0 1rem rgba(163, 163, 163, 0.3);
+  -moz-box-shadow: 0 0 1rem rgba(163, 163, 163, 0.3);
+  box-shadow: 0 0 1rem rgba(163, 163, 163, 0.3); }
   /* line 7, _navigation.scss */
   nav ul {
     height: 40px;
@@ -302,22 +302,22 @@ h1 {
 /* line 1, _recipe-page.scss */
 .recipe {
   line-height: 2.3125rem;
-  text-align: center;
-  padding: 4.6rem 0; }
+  text-align: center; }
   /* line 5, _recipe-page.scss */
   .recipe img {
+    padding: 15px 30px 0;
     width: 100%; }
-  /* line 8, _recipe-page.scss */
+  /* line 9, _recipe-page.scss */
   .recipe h1 {
     font-family: 'Architects Daughter', cursive;
     margin: 3.125rem 0 3.125rem;
     font-size: 4rem;
     line-height: 3.1rem; }
-  /* line 14, _recipe-page.scss */
+  /* line 15, _recipe-page.scss */
   .recipe h2 {
     font-family: 'Architects Daughter', cursive;
     font-size: 2rem; }
-  /* line 18, _recipe-page.scss */
+  /* line 19, _recipe-page.scss */
   .recipe ul, .recipe p {
     display: block;
     margin: 1.875rem auto;
@@ -328,13 +328,13 @@ h1 {
     line-height: 1.75rem;
     text-align: left;
     padding: 0 2rem; }
-    /* line 28, _recipe-page.scss */
+    /* line 29, _recipe-page.scss */
     .recipe ul li, .recipe p li {
       position: relative; }
-      /* line 30, _recipe-page.scss */
+      /* line 31, _recipe-page.scss */
       .recipe ul li span, .recipe p li span {
         font-weight: bold; }
-  /* line 35, _recipe-page.scss */
+  /* line 36, _recipe-page.scss */
   .recipe section {
     padding-bottom: 4rem; }
 
