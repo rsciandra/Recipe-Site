@@ -1,27 +1,37 @@
-article li {
-	height: auto;
-	position: absolute;
+h1 {
+	font-family: 'Architects Daughter', cursive;
+	margin: 1rem 0 1rem;
+	font-size: 4rem;
+	text-align: center;
 }
 .recipe-title { 
 	position: relative;
+	padding: .9375rem 1.875rem 0;
+	a {
+		float: left;
+	}
 	section {
-		color: #fff;
-		width: 100%;
-		padding: .625rem;
-		background: rgba(0,0,0,0.5);
-		position: absolute;
-		bottom: .04rem;
+		color: #000;
+		padding: 10px 10px;
 		h2 {
 			font-family: 'Architects Daughter', cursive;
-			font-size: 1.8rem;
-			line-height: 1.6rem;
-			padding-bottom: 0;
+			font-size: 1.7rem;
+			line-height: 1.8rem;
+			padding-bottom: 10px;
+			letter-spacing: .2rem;
 		}
 		p {
-			letter-spacing: .19rem;
-			font-size: .9rem;
+			letter-spacing: .15rem;
+			font-size: 1.1rem;
 			font-weight: 300;
-			line-height: 1.2rem;
+			color: $light-gray;
+			line-height: 1.75rem;
+		}
+		p:nth-child(3) {
+			color: #000;
+			padding-top: .6rem;
+			font-weight: bold;
+			text-align: center;
 		}
 	}
 }

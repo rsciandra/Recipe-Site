@@ -68,17 +68,18 @@ html {
 /* line 1, _navigation.scss */
 nav {
   position: fixed;
-  z-index: 9999; }
-  /* line 4, _navigation.scss */
+  z-index: 9999;
+  box-shadow: 0 0 .75rem #a3a3a3; }
+  /* line 5, _navigation.scss */
   nav ul {
     height: 40px;
-    max-width: 767px;
+    max-width: 959px;
     margin: 0 auto;
     display: none;
     height: auto;
     font-weight: 300;
     letter-spacing: .15rem; }
-  /* line 13, _navigation.scss */
+  /* line 14, _navigation.scss */
   nav li {
     display: inline;
     float: left;
@@ -86,7 +87,7 @@ nav {
     float: left;
     position: relative;
     border-bottom: 1px solid #fff; }
-  /* line 21, _navigation.scss */
+  /* line 22, _navigation.scss */
   nav a {
     color: #fff;
     display: inline-block;
@@ -94,16 +95,16 @@ nav {
     text-align: center;
     width: 100%;
     background: #666666; }
-  /* line 29, _navigation.scss */
+  /* line 30, _navigation.scss */
   nav a:hover {
     background: #444; }
-  /* line 32, _navigation.scss */
+  /* line 33, _navigation.scss */
   nav #pull {
     display: block;
     background: rgba(255, 255, 255, 0.95);
     width: 100%;
     position: relative; }
-  /* line 38, _navigation.scss */
+  /* line 39, _navigation.scss */
   nav #pull:after {
     content: "";
     width: 60px;
@@ -113,7 +114,7 @@ nav {
     right: 1rem;
     top: 0.5rem; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 959px) {
   /* line 2, _logo.scss */
   .walrus {
     display: none; }
@@ -122,15 +123,15 @@ nav {
   .title {
     width: 90%;
     float: right; } }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   /* line 12, _logo.scss */
   .walrus {
     display: block; } }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 959px) {
   /* line 2, _carousel.scss */
   .carousel {
     display: none; } }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   /* line 8, _carousel.scss */
   .carousel {
     display: block; }
@@ -138,92 +139,102 @@ nav {
     .carousel img {
       width: 100%; } }
 /* line 1, _main-page.scss */
+article {
+  padding: 6rem 0; }
+  /* line 3, _main-page.scss */
+  article li {
+    position: absolute; }
+
+/* line 7, _main-page.scss */
 ul {
   list-style: none; }
-  /* line 3, _main-page.scss */
+  /* line 9, _main-page.scss */
   ul li {
     overflow: hidden; }
-  /* line 6, _main-page.scss */
+  /* line 12, _main-page.scss */
   ul img {
     width: 100%; }
-  /* line 9, _main-page.scss */
+  /* line 15, _main-page.scss */
   ul a {
     text-decoration: none; }
 
-/* line 13, _main-page.scss */
-article {
-  padding: 19% 0 0 0; }
-  /* line 16, _main-page.scss */
-  article ul li {
-    border-bottom: 2px solid #fff; }
-
-/* line 27, _main-page.scss */
+/* line 25, _main-page.scss */
 footer {
   background-color: #666666;
   width: 100%;
   text-align: center;
   padding-bottom: 2rem; }
-  /* line 32, _main-page.scss */
+  /* line 30, _main-page.scss */
   footer img {
     padding: 2rem 0 0 0;
     width: 40%; }
-  /* line 36, _main-page.scss */
+  /* line 34, _main-page.scss */
   footer h3 {
     color: #b1d2fd;
     font-family: 'Architects Daughter', cursive;
     font-size: 2rem;
     padding: .8rem 0; }
-  /* line 42, _main-page.scss */
+  /* line 40, _main-page.scss */
   footer ul {
     padding: 0 0 .8rem; }
-    /* line 44, _main-page.scss */
+    /* line 42, _main-page.scss */
     footer ul li {
       display: inline-block; }
-      /* line 46, _main-page.scss */
+      /* line 44, _main-page.scss */
       footer ul li img {
         padding: .3rem;
         width: 3rem; }
-  /* line 52, _main-page.scss */
+  /* line 50, _main-page.scss */
   footer p, footer a, footer li {
     color: #3b3b3b;
     letter-spacing: .19rem;
     font-weight: 200;
     font-size: .5rem; }
-  /* line 58, _main-page.scss */
+  /* line 56, _main-page.scss */
   footer p {
     padding: .2rem; }
-  /* line 61, _main-page.scss */
+  /* line 59, _main-page.scss */
   footer a {
     text-decoration: none; }
 
 /* line 1, _recipe-title.scss */
-article li {
-  height: auto;
-  position: absolute; }
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  margin: 1rem 0 1rem;
+  font-size: 4rem;
+  text-align: center; }
 
-/* line 5, _recipe-title.scss */
+/* line 7, _recipe-title.scss */
 .recipe-title {
-  position: relative; }
-  /* line 7, _recipe-title.scss */
+  position: relative;
+  padding: .9375rem 1.875rem 0; }
+  /* line 10, _recipe-title.scss */
+  .recipe-title a {
+    float: left; }
+  /* line 13, _recipe-title.scss */
   .recipe-title section {
-    color: #fff;
-    width: 100%;
-    padding: .625rem;
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    bottom: .04rem; }
-    /* line 14, _recipe-title.scss */
+    color: #000;
+    padding: 10px 10px; }
+    /* line 16, _recipe-title.scss */
     .recipe-title section h2 {
       font-family: 'Architects Daughter', cursive;
-      font-size: 1.8rem;
-      line-height: 1.6rem;
-      padding-bottom: 0; }
-    /* line 20, _recipe-title.scss */
+      font-size: 1.7rem;
+      line-height: 1.8rem;
+      padding-bottom: 10px;
+      letter-spacing: .2rem; }
+    /* line 23, _recipe-title.scss */
     .recipe-title section p {
-      letter-spacing: .19rem;
-      font-size: .9rem;
+      letter-spacing: .15rem;
+      font-size: 1.1rem;
       font-weight: 300;
-      line-height: 1.2rem; }
+      color: #666666;
+      line-height: 1.75rem; }
+    /* line 30, _recipe-title.scss */
+    .recipe-title section p:nth-child(3) {
+      color: #000;
+      padding-top: .6rem;
+      font-weight: bold;
+      text-align: center; }
 
 /* line 1, _menu-icon.scss */
 #nav-icon {
@@ -239,7 +250,7 @@ article li {
     display: block;
     position: absolute;
     height: .25rem;
-    width: 1.2rem;
+    width: 1.3rem;
     background: #000;
     border-radius: 9px;
     opacity: 1;
@@ -265,17 +276,17 @@ article li {
 
 /* line 40, _menu-icon.scss */
 #nav-icon.open span:nth-child(2) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg); }
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  transform: rotate(40deg); }
 
 /* line 47, _menu-icon.scss */
 #nav-icon.open span:nth-child(3) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg); }
+  -webkit-transform: rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg); }
 
 /* line 54, _menu-icon.scss */
 #nav-icon.open span:nth-child(4) {
@@ -286,10 +297,10 @@ article li {
 /* line 1, _recipe-page.scss */
 .recipe {
   line-height: 2.3125rem;
-  text-align: center; }
-  /* line 4, _recipe-page.scss */
+  text-align: center;
+  padding: 4.9rem 0; }
+  /* line 5, _recipe-page.scss */
   .recipe img {
-    padding: .3125rem 0 0 0;
     width: 100%; }
   /* line 8, _recipe-page.scss */
   .recipe h1 {
@@ -304,22 +315,21 @@ article li {
   /* line 18, _recipe-page.scss */
   .recipe ul, .recipe p {
     display: block;
-    margin: 1rem auto;
+    margin: 1.875rem auto;
     font-size: 1.1rem;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: .15rem;
     color: #666666;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
     text-align: left;
-    padding: 0 2.2rem; }
+    padding: 0 2rem; }
     /* line 28, _recipe-page.scss */
     .recipe ul li, .recipe p li {
-      position: relative;
-      font-size: .9rem; }
-      /* line 31, _recipe-page.scss */
+      position: relative; }
+      /* line 30, _recipe-page.scss */
       .recipe ul li span, .recipe p li span {
         font-weight: bold; }
-  /* line 36, _recipe-page.scss */
+  /* line 35, _recipe-page.scss */
   .recipe section {
     padding-bottom: 4rem; }
 
@@ -329,19 +339,19 @@ article li {
   text-align: center; }
   /* line 4, _aboutme.scss */
   .profile img {
-    padding: .3125rem 0 0 0;
+    padding: 15px 30px 0;
     width: 100%; }
   /* line 8, _aboutme.scss */
   .profile h1 {
     font-family: 'Architects Daughter', cursive;
-    margin: 3.125rem 0 3.125rem;
+    margin: 2rem 0 0;
     font-size: 4rem; }
   /* line 13, _aboutme.scss */
   .profile p {
     display: block;
     margin: 1.875rem auto;
     font-size: 1.1rem;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: .15rem;
     color: #666666;
     line-height: 1.75rem;
@@ -349,7 +359,7 @@ article li {
     padding: 0 2rem; }
   /* line 24, _aboutme.scss */
   .profile section {
-    padding-bottom: 4rem; }
+    padding-bottom: 2rem; }
 
 /* line 1, _contact.scss */
 .contact {

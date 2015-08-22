@@ -1,8 +1,8 @@
 .recipe {
 	line-height: 2.3125rem;
 	text-align: center;
+	padding: 4.9rem 0;
 	img {
-		padding: .3125rem 0 0 0;
 		width: 100%;
 	}
 	h1 {
@@ -17,17 +17,16 @@
 	}
 	ul, p {
 		display: block;
-		margin: 1rem auto;
+		margin: 1.875rem auto;
 		font-size: 1.1rem;
-		font-weight: 200;
+		font-weight: 300;
 		letter-spacing: .15rem;
 		color: $light-gray;
-		line-height: 1.5rem;
+		line-height: 1.75rem;
 		text-align: left;
-		padding: 0 2.2rem;
+		padding: 0 2rem;
 		li {
 			position: relative;
-			font-size: .9rem;
 			span {
 				font-weight: bold;
 			}

@@ -1,6 +1,7 @@
 nav {
 	position: fixed;
 	z-index: 9999;
+	box-shadow: 0 0 .75rem #a3a3a3;
 	ul {
 		height: 40px;
 		max-width: $breakpoint-max;
