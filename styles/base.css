@@ -71,8 +71,9 @@ nav {
   z-index: 9999;
   -webkit-box-shadow: 0 0 1rem #a3a3a3;
   -moz-box-shadow: 0 0 1rem #a3a3a3;
-  box-shadow: 0 0 1rem #a3a3a3; }
-  /* line 7, _navigation.scss */
+  box-shadow: 0 0 1rem #a3a3a3;
+  border-radius: 1px; }
+  /* line 8, _navigation.scss */
   nav ul {
     height: 40px;
     max-width: 959px;
@@ -81,7 +82,7 @@ nav {
     height: auto;
     font-weight: 300;
     letter-spacing: .15rem; }
-  /* line 16, _navigation.scss */
+  /* line 17, _navigation.scss */
   nav li {
     display: inline;
     float: left;
@@ -89,7 +90,7 @@ nav {
     float: left;
     position: relative;
     border-bottom: 1px solid #fff; }
-  /* line 24, _navigation.scss */
+  /* line 25, _navigation.scss */
   nav a {
     color: #fff;
     display: inline-block;
@@ -97,16 +98,16 @@ nav {
     text-align: center;
     width: 100%;
     background: #666666; }
-  /* line 32, _navigation.scss */
+  /* line 33, _navigation.scss */
   nav a:hover {
     background: #444; }
-  /* line 35, _navigation.scss */
+  /* line 36, _navigation.scss */
   nav #pull {
     display: block;
     background: rgba(255, 255, 255, 0.95);
     width: 100%;
     position: relative; }
-  /* line 41, _navigation.scss */
+  /* line 42, _navigation.scss */
   nav #pull:after {
     content: "";
     width: 60px;
@@ -117,41 +118,41 @@ nav {
     top: 0.5rem; }
 
 @media screen and (max-width: 959px) {
-  /* line 76, _navigation.scss */
+  /* line 81, _navigation.scss */
   nav {
     height: auto;
     border-bottom: 0; }
-    /* line 80, _navigation.scss */
+    /* line 85, _navigation.scss */
     nav ul {
       display: none;
       height: auto; }
-    /* line 84, _navigation.scss */
+    /* line 89, _navigation.scss */
     nav ul a {
       color: #fff;
       font-weight: 100;
       letter-spacing: .15rem; }
-    /* line 89, _navigation.scss */
+    /* line 94, _navigation.scss */
     nav li {
       width: 100%;
       float: left;
       position: relative;
       border-bottom: 1px solid #262626; }
-    /* line 95, _navigation.scss */
+    /* line 100, _navigation.scss */
     nav a {
       text-align: center;
       width: 100%;
       color: #fff;
       background: #666666; }
-    /* line 101, _navigation.scss */
+    /* line 106, _navigation.scss */
     nav a:hover {
       background: #444; }
-    /* line 104, _navigation.scss */
+    /* line 109, _navigation.scss */
     nav #pull {
       display: block;
       background: rgba(255, 255, 255, 0.95);
       width: 100%;
       position: relative; }
-    /* line 110, _navigation.scss */
+    /* line 115, _navigation.scss */
     nav #pull:after {
       content: "";
       width: 60px;

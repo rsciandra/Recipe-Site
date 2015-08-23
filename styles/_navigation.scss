@@ -4,6 +4,7 @@ nav {
 	-webkit-box-shadow: 0 0 1rem rgba(163,163,163,1);
 	-moz-box-shadow: 0 0 1rem rgba(163,163,163,1);
 	box-shadow: 0 0 1rem rgba(163,163,163,1);
+	border-radius:1px;
 	ul {
 		height: 40px;
 		max-width: $breakpoint-max;
@@ -47,6 +48,10 @@ nav {
 		right: 1rem;
 		top:0.5rem;
 	}
+	// .shadow	{
+	// 	border-bottom: 5px solid rgba(163,163,163,.5);
+	// 	background-origin: content-box;
+	// }
 }
 
 // nav {
