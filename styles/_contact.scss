@@ -8,7 +8,6 @@
     }
     h1 {
         font-family: 'Architects Daughter', cursive;
-        // margin: 3.125rem 0 3.125rem;
         font-size: 1.7rem;
         line-height: 3.1rem;  
     }
@@ -16,57 +15,48 @@
         text-align: center;
         width: 90%;
         margin: 0 auto;
+        color: $light-gray;
         input[type=text]{
             text-align: center;
-            margin-bottom: 20px;
-            padding: 10px;
+            margin-bottom: 1.25rem;
+            padding: 1rem;
             font-weight: 300;
             background-color: #f4f4f4;
             width: 100%;
-            border-radius: 3px;
-            border: none;
-            border-style: inset;
-            border-width: 2px;
+            border: hidden;
             outline: none;
         }
         textarea {
             text-align: center;
             width: 100%;
             font-weight: 300;
-            padding: 10px;
+            padding: 1rem;
             background-color: #f4f4f4;
-            border-radius: 3px; 
-            border-style: inset;
-            border-width: 2px;
+            border: hidden; 
             outline: none;
-            resize: none;
+            resize: vertical;
         }
     }
     button {
-        margin: 20px 0;
-        padding: 15px 30px;
-        background-color: #c4c4c4;
+        margin: 1.25rem 0;
+        padding: .9375rem 1.875rem;
+        background-color: $light-gray;
         border: none;
-        font-size: 15px;
-        font-weight: bold;
-        color: #434343;
-        letter-spacing: 1px;
-        border-radius: 3px;
-        box-shadow: 0 -3px 0 0 #727272 inset;
+        font-size: .9375rem;
+        font-weight: 300;
+        color: #fff;
+        letter-spacing: .0625rem;
         outline: none;
-        width: 125px;
     }
 
     button:hover {
         background-color: $light-blue;
-        color: white;
-        box-shadow: 0 -3px 0 0 #186eac inset;
+        color: $light-gray;
         outline: none;
     }
 
     button:active {
         background-color: $light-blue;
-        box-shadow: none;
         outline: none;
     }
 }

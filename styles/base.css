@@ -69,9 +69,9 @@ html {
 nav {
   position: fixed;
   z-index: 9999;
-  -webkit-box-shadow: 0 0 0.0625rem rgba(102, 102, 102, 0.9);
-  -moz-box-shadow: 0 0 0.0625rem rgba(102, 102, 102, 0.9);
-  box-shadow: 0 0 0.0625rem rgba(102, 102, 102, 0.9);
+  -webkit-box-shadow: 0 0 0.07rem rgba(102, 102, 102, 0.9);
+  -moz-box-shadow: 0 0 0.07rem rgba(102, 102, 102, 0.9);
+  box-shadow: 0 0 0.07rem rgba(102, 102, 102, 0.9);
   border-radius: 1px; }
   /* line 8, _navigation.scss */
   nav ul {
@@ -117,50 +117,6 @@ nav {
     right: 1rem;
     top: 0.5rem; }
 
-@media screen and (max-width: 959px) {
-  /* line 81, _navigation.scss */
-  nav {
-    height: auto;
-    border-bottom: 0; }
-    /* line 85, _navigation.scss */
-    nav ul {
-      display: none;
-      height: auto; }
-    /* line 89, _navigation.scss */
-    nav ul a {
-      color: #fff;
-      font-weight: 100;
-      letter-spacing: .15rem; }
-    /* line 94, _navigation.scss */
-    nav li {
-      width: 100%;
-      float: left;
-      position: relative;
-      border-bottom: 1px solid #262626; }
-    /* line 100, _navigation.scss */
-    nav a {
-      text-align: center;
-      width: 100%;
-      color: #fff;
-      background: #666666; }
-    /* line 106, _navigation.scss */
-    nav a:hover {
-      background: #444; }
-    /* line 109, _navigation.scss */
-    nav #pull {
-      display: block;
-      background: rgba(255, 255, 255, 0.95);
-      width: 100%;
-      position: relative; }
-    /* line 115, _navigation.scss */
-    nav #pull:after {
-      content: "";
-      width: 60px;
-      height: 40px;
-      display: inline-block;
-      position: absolute;
-      right: 1rem;
-      top: 0.5rem; } }
 @media screen and (max-width: 959px) {
   /* line 2, _logo.scss */
   .walrus {
@@ -426,58 +382,49 @@ h1 {
     font-family: 'Architects Daughter', cursive;
     font-size: 1.7rem;
     line-height: 3.1rem; }
-  /* line 15, _contact.scss */
+  /* line 14, _contact.scss */
   .contact form {
     text-align: center;
     width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    color: #666666; }
     /* line 19, _contact.scss */
     .contact form input[type=text] {
       text-align: center;
-      margin-bottom: 20px;
-      padding: 10px;
+      margin-bottom: 1.25rem;
+      padding: 1rem;
       font-weight: 300;
       background-color: #f4f4f4;
       width: 100%;
-      border-radius: 3px;
-      border: none;
-      border-style: inset;
-      border-width: 2px;
+      border: hidden;
       outline: none; }
-    /* line 32, _contact.scss */
+    /* line 29, _contact.scss */
     .contact form textarea {
       text-align: center;
       width: 100%;
       font-weight: 300;
-      padding: 10px;
+      padding: 1rem;
       background-color: #f4f4f4;
-      border-radius: 3px;
-      border-style: inset;
-      border-width: 2px;
+      border: hidden;
       outline: none;
-      resize: none; }
-  /* line 45, _contact.scss */
+      resize: vertical; }
+  /* line 40, _contact.scss */
   .contact button {
-    margin: 20px 0;
-    padding: 15px 30px;
-    background-color: #c4c4c4;
+    margin: 1.25rem 0;
+    padding: .9375rem 1.875rem;
+    background-color: #666666;
     border: none;
-    font-size: 15px;
-    font-weight: bold;
-    color: #434343;
-    letter-spacing: 1px;
-    border-radius: 3px;
-    box-shadow: 0 -3px 0 0 #727272 inset;
-    outline: none;
-    width: 125px; }
-  /* line 60, _contact.scss */
+    font-size: .9375rem;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: .0625rem;
+    outline: none; }
+  /* line 52, _contact.scss */
   .contact button:hover {
     background-color: #b1d2fd;
-    color: white;
-    box-shadow: 0 -3px 0 0 #186eac inset;
+    color: #666666;
     outline: none; }
-  /* line 67, _contact.scss */
+  /* line 58, _contact.scss */
   .contact button:active {
     background-color: #b1d2fd;
-    box-shadow: none;
     outline: none; }
