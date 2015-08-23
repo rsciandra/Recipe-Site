@@ -362,12 +362,12 @@ h1 {
   /* line 8, _recipe-page.scss */
   .recipe h1 {
     font-family: 'Architects Daughter', cursive;
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 3.1rem; }
   /* line 13, _recipe-page.scss */
   .recipe h2 {
     font-family: 'Architects Daughter', cursive;
-    font-size: 2rem; }
+    font-size: 1.7rem; }
   /* line 17, _recipe-page.scss */
   .recipe ul, .recipe p {
     display: block;
