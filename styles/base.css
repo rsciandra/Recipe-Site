@@ -389,26 +389,42 @@ h1 {
     margin: 0 auto;
     color: #666666; }
     /* line 19, _contact.scss */
+    .contact form ::-webkit-input-placeholder {
+      color: #fff; }
+    /* line 22, _contact.scss */
+    .contact form ::-moz-placeholder {
+      color: #fff; }
+    /* line 25, _contact.scss */
     .contact form input[type=text] {
       text-align: center;
       margin-bottom: 1.25rem;
       padding: 1rem;
-      font-weight: 300;
-      background-color: #f4f4f4;
+      background-color: #B6B6B6;
       width: 100%;
       border: hidden;
-      outline: none; }
-    /* line 29, _contact.scss */
+      outline: none;
+      border-radius: 0;
+      color: #fff;
+      font-size: .8rem;
+      font-weight: 300;
+      letter-spacing: .15rem;
+      font-family: Helvetica Neue, sans-serif; }
+    /* line 40, _contact.scss */
     .contact form textarea {
       text-align: center;
       width: 100%;
       font-weight: 300;
       padding: 1rem;
-      background-color: #f4f4f4;
+      background-color: #B6B6B6;
       border: hidden;
       outline: none;
-      resize: vertical; }
-  /* line 40, _contact.scss */
+      border-radius: 0;
+      color: #fff;
+      font-size: .8rem;
+      font-weight: 300;
+      letter-spacing: .15rem;
+      font-family: Helvetica Neue, sans-serif; }
+  /* line 57, _contact.scss */
   .contact button {
     margin: 1.25rem 0;
     padding: .9375rem 1.875rem;
@@ -419,12 +435,12 @@ h1 {
     color: #fff;
     letter-spacing: .0625rem;
     outline: none; }
-  /* line 52, _contact.scss */
+  /* line 69, _contact.scss */
   .contact button:hover {
     background-color: #b1d2fd;
     color: #666666;
     outline: none; }
-  /* line 58, _contact.scss */
+  /* line 75, _contact.scss */
   .contact button:active {
     background-color: #b1d2fd;
     outline: none; }
