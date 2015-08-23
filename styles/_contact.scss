@@ -57,23 +57,23 @@
     button {
         margin: 1.25rem 0;
         padding: .9375rem 1.875rem;
-        background-color: $light-gray;
+        background-color: $light-blue;
         border: none;
         font-size: .9375rem;
         font-weight: 300;
-        color: #fff;
+        color: $light-gray;
         letter-spacing: .0625rem;
         outline: none;
     }
 
     button:hover {
-        background-color: $light-blue;
-        color: $light-gray;
+        background-color: #B6B6B6;
+        color: #fff;
         outline: none;
     }
 
     button:active {
-        background-color: $light-blue;
+        background-color: #B6B6B6;
         outline: none;
     }
 }
