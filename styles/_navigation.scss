@@ -1,10 +1,10 @@
 nav {
 	position: fixed;
 	z-index: 9999;
-	// -webkit-box-shadow: 0 0 1rem rgba(163,163,163,1);
-	// -moz-box-shadow: 0 0 1rem rgba(163,163,163,1);
-	// box-shadow: 0 0 1rem rgba(163,163,163,1);
-	// border-radius:1px;
+	-webkit-box-shadow: 0 0 .0625rem rgba(102,102,102,.9);
+	-moz-box-shadow: 0 0 .0625rem rgba(102,102,102,.9);
+	box-shadow: 0 0 .0625rem rgba(102,102,102,.9);
+	border-radius:1px;
 	ul {
 		height: 40px;
 		max-width: $breakpoint-max;
@@ -48,10 +48,10 @@ nav {
 		right: 1rem;
 		top:0.5rem;
 	}
-	.shadow	{
-		border-bottom: .0625rem solid rgba(102,102,102,.9);
-		background-origin: content-box;
-	}
+	// .shadow	{
+	// 	border-bottom: .0625rem solid rgba(102,102,102,.9);
+	// 	background-origin: content-box;
+	// }
 }
 
 // nav {

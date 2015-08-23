@@ -68,7 +68,11 @@ html {
 /* line 1, _navigation.scss */
 nav {
   position: fixed;
-  z-index: 9999; }
+  z-index: 9999;
+  -webkit-box-shadow: 0 0 0.0625rem rgba(102, 102, 102, 0.9);
+  -moz-box-shadow: 0 0 0.0625rem rgba(102, 102, 102, 0.9);
+  box-shadow: 0 0 0.0625rem rgba(102, 102, 102, 0.9);
+  border-radius: 1px; }
   /* line 8, _navigation.scss */
   nav ul {
     height: 40px;
@@ -112,10 +116,6 @@ nav {
     position: absolute;
     right: 1rem;
     top: 0.5rem; }
-  /* line 51, _navigation.scss */
-  nav .shadow {
-    border-bottom: 0.0625rem solid rgba(102, 102, 102, 0.9);
-    background-origin: content-box; }
 
 @media screen and (max-width: 959px) {
   /* line 81, _navigation.scss */
