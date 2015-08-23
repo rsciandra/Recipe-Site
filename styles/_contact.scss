@@ -1,14 +1,15 @@
 .contact {
     line-height: 2.2125rem;
     text-align: center;
+    padding: 9rem 0 6rem;
     img {
         padding: .3125rem 0 0 0;
         width: 100%;
     }
     h1 {
         font-family: 'Architects Daughter', cursive;
-        margin: 3.125rem 0 3.125rem;
-        font-size: 4rem;
+        // margin: 3.125rem 0 3.125rem;
+        font-size: 1.7rem;
         line-height: 3.1rem;  
     }
     form {
@@ -67,8 +68,5 @@
         background-color: $light-blue;
         box-shadow: none;
         outline: none;
-    }
-    section {
-        padding-bottom: 4rem;
     }
 }
