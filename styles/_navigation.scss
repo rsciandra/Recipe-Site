@@ -1,10 +1,10 @@
 nav {
 	position: fixed;
 	z-index: 9999;
-	-webkit-box-shadow: 0 0 1rem rgba(163,163,163,1);
-	-moz-box-shadow: 0 0 1rem rgba(163,163,163,1);
-	box-shadow: 0 0 1rem rgba(163,163,163,1);
-	border-radius:1px;
+	// -webkit-box-shadow: 0 0 1rem rgba(163,163,163,1);
+	// -moz-box-shadow: 0 0 1rem rgba(163,163,163,1);
+	// box-shadow: 0 0 1rem rgba(163,163,163,1);
+	// border-radius:1px;
 	ul {
 		height: 40px;
 		max-width: $breakpoint-max;
@@ -48,10 +48,10 @@ nav {
 		right: 1rem;
 		top:0.5rem;
 	}
-	// .shadow	{
-	// 	border-bottom: 5px solid rgba(163,163,163,.5);
-	// 	background-origin: content-box;
-	// }
+	.shadow	{
+		border-bottom: .0625rem solid rgba(102,102,102,.9);
+		background-origin: content-box;
+	}
 }
 
 // nav {
@@ -77,49 +77,49 @@ nav {
 // 	}
 // }
 
-// @media screen and (max-width: $breakpoint-max) {
-// 	nav {
-// 		height: auto;
-// 		border-bottom: 0;
+@media screen and (max-width: $breakpoint-max) {
+	nav {
+		height: auto;
+		border-bottom: 0;
 
-// 		ul {
-// 			display: none;
-// 			height: auto;
-// 		}
-// 		ul a {
-// 			color: #fff;
-// 			font-weight: 100;
-// 			letter-spacing: .15rem;
-// 		}
-// 		li {
-// 			width: 100%;
-// 			float: left;
-// 			position: relative;
-// 			border-bottom: 1px solid #262626;
-// 		}
-// 		a {
-// 			text-align: center;
-// 			width: 100%;
-// 			color: #fff;
-// 			background: $light-gray;
-// 		}
-// 		a:hover {
-// 			background: #444;
-// 		}
-// 		#pull {
-// 			display: block;
-// 			background: rgba(255, 255, 255, .95);
-// 			width: 100%;
-// 			position: relative;
-// 		}
-// 		#pull:after {
-// 			content: "";
-// 			width: 60px;
-// 			height: 40px;
-// 			display: inline-block;
-// 			position: absolute;
-// 			right: 1rem;
-// 			top:0.5rem;
-// 		}
-// 	}
-// }
+		ul {
+			display: none;
+			height: auto;
+		}
+		ul a {
+			color: #fff;
+			font-weight: 100;
+			letter-spacing: .15rem;
+		}
+		li {
+			width: 100%;
+			float: left;
+			position: relative;
+			border-bottom: 1px solid #262626;
+		}
+		a {
+			text-align: center;
+			width: 100%;
+			color: #fff;
+			background: $light-gray;
+		}
+		a:hover {
+			background: #444;
+		}
+		#pull {
+			display: block;
+			background: rgba(255, 255, 255, .95);
+			width: 100%;
+			position: relative;
+		}
+		#pull:after {
+			content: "";
+			width: 60px;
+			height: 40px;
+			display: inline-block;
+			position: absolute;
+			right: 1rem;
+			top:0.5rem;
+		}
+	}
+}

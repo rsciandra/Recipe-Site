@@ -68,11 +68,7 @@ html {
 /* line 1, _navigation.scss */
 nav {
   position: fixed;
-  z-index: 9999;
-  -webkit-box-shadow: 0 0 1rem #a3a3a3;
-  -moz-box-shadow: 0 0 1rem #a3a3a3;
-  box-shadow: 0 0 1rem #a3a3a3;
-  border-radius: 1px; }
+  z-index: 9999; }
   /* line 8, _navigation.scss */
   nav ul {
     height: 40px;
@@ -116,7 +112,55 @@ nav {
     position: absolute;
     right: 1rem;
     top: 0.5rem; }
+  /* line 51, _navigation.scss */
+  nav .shadow {
+    border-bottom: 0.0625rem solid rgba(102, 102, 102, 0.9);
+    background-origin: content-box; }
 
+@media screen and (max-width: 959px) {
+  /* line 81, _navigation.scss */
+  nav {
+    height: auto;
+    border-bottom: 0; }
+    /* line 85, _navigation.scss */
+    nav ul {
+      display: none;
+      height: auto; }
+    /* line 89, _navigation.scss */
+    nav ul a {
+      color: #fff;
+      font-weight: 100;
+      letter-spacing: .15rem; }
+    /* line 94, _navigation.scss */
+    nav li {
+      width: 100%;
+      float: left;
+      position: relative;
+      border-bottom: 1px solid #262626; }
+    /* line 100, _navigation.scss */
+    nav a {
+      text-align: center;
+      width: 100%;
+      color: #fff;
+      background: #666666; }
+    /* line 106, _navigation.scss */
+    nav a:hover {
+      background: #444; }
+    /* line 109, _navigation.scss */
+    nav #pull {
+      display: block;
+      background: rgba(255, 255, 255, 0.95);
+      width: 100%;
+      position: relative; }
+    /* line 115, _navigation.scss */
+    nav #pull:after {
+      content: "";
+      width: 60px;
+      height: 40px;
+      display: inline-block;
+      position: absolute;
+      right: 1rem;
+      top: 0.5rem; } }
 @media screen and (max-width: 959px) {
   /* line 2, _logo.scss */
   .walrus {
