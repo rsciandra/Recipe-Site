@@ -87,10 +87,9 @@ nav {
     display: inline;
     float: left;
     width: 100%;
-    float: left;
     position: relative;
     border-bottom: 1px solid #fff; }
-  /* line 25, _navigation.scss */
+  /* line 24, _navigation.scss */
   nav a {
     color: #fff;
     display: inline-block;
@@ -98,24 +97,15 @@ nav {
     text-align: center;
     width: 100%;
     background: #666666; }
-  /* line 33, _navigation.scss */
+  /* line 32, _navigation.scss */
   nav a:hover {
     background: #444; }
-  /* line 36, _navigation.scss */
+  /* line 35, _navigation.scss */
   nav #pull {
     display: block;
     background: rgba(255, 255, 255, 0.95);
     width: 100%;
     position: relative; }
-  /* line 42, _navigation.scss */
-  nav #pull:after {
-    content: "";
-    width: 60px;
-    height: 40px;
-    display: inline-block;
-    position: absolute;
-    right: 1rem;
-    top: 0.5rem; }
 
 @media screen and (max-width: 959px) {
   /* line 2, _logo.scss */
@@ -169,7 +159,7 @@ footer {
   padding: 4rem 0; }
   /* line 30, _main-page.scss */
   footer img {
-    width: 40%; }
+    width: 12rem; }
   /* line 34, _main-page.scss */
   footer h3 {
     color: #b1d2fd;
@@ -240,15 +230,6 @@ h1 {
       padding-top: .6rem;
       font-weight: bold;
       text-align: center; }
-    /* line 39, _recipe-title.scss */
-    .recipe-title section span {
-      display: block;
-      position: absolute;
-      height: .0625rem;
-      width: 21rem;
-      background: #666666;
-      opacity: 1;
-      margin-top: .9rem; }
 
 /* line 1, _menu-icon.scss */
 #nav-icon {
@@ -259,7 +240,7 @@ h1 {
   top: 1rem;
   left: .4rem;
   cursor: pointer; }
-  /* line 9, _menu-icon.scss */
+  /* line 12, _menu-icon.scss */
   #nav-icon span {
     display: block;
     position: absolute;
@@ -270,39 +251,39 @@ h1 {
     opacity: 1;
     left: 0; }
 
-/* line 21, _menu-icon.scss */
+/* line 24, _menu-icon.scss */
 #nav-icon span:nth-child(1) {
   top: 0px; }
 
-/* line 25, _menu-icon.scss */
+/* line 28, _menu-icon.scss */
 #nav-icon span:nth-child(2), #nav-icon span:nth-child(3) {
   top: 6px; }
 
-/* line 30, _menu-icon.scss */
+/* line 33, _menu-icon.scss */
 #nav-icon span:nth-child(4) {
   top: 12px; }
 
-/* line 34, _menu-icon.scss */
+/* line 37, _menu-icon.scss */
 #nav-icon.open span:nth-child(1) {
   top: 6px;
   width: 0%;
   left: 25%; }
 
-/* line 40, _menu-icon.scss */
+/* line 43, _menu-icon.scss */
 #nav-icon.open span:nth-child(2) {
   -webkit-transform: rotate(40deg);
   -moz-transform: rotate(40deg);
   -o-transform: rotate(40deg);
   transform: rotate(40deg); }
 
-/* line 47, _menu-icon.scss */
+/* line 50, _menu-icon.scss */
 #nav-icon.open span:nth-child(3) {
   -webkit-transform: rotate(-40deg);
   -moz-transform: rotate(-40deg);
   -o-transform: rotate(-40deg);
   transform: rotate(-40deg); }
 
-/* line 54, _menu-icon.scss */
+/* line 57, _menu-icon.scss */
 #nav-icon.open span:nth-child(4) {
   top: 6px;
   width: 0%;
@@ -370,61 +351,44 @@ h1 {
 
 /* line 1, _contact.scss */
 .contact {
-  line-height: 2.2125rem;
-  text-align: center;
-  padding: 9rem 0 6rem; }
-  /* line 5, _contact.scss */
+  padding: 5rem 0 1rem; }
+  /* line 3, _contact.scss */
   .contact img {
     padding: .3125rem 0 0 0;
     width: 100%; }
-  /* line 9, _contact.scss */
+  /* line 7, _contact.scss */
   .contact h1 {
     font-family: 'Architects Daughter', cursive;
     font-size: 1.7rem;
     line-height: 3.1rem; }
-  /* line 14, _contact.scss */
+  /* line 12, _contact.scss */
   .contact form {
     text-align: center;
     width: 90%;
-    margin: 0 auto;
-    color: #666666; }
-    /* line 19, _contact.scss */
-    .contact form ::-webkit-input-placeholder {
-      color: #fff; }
-    /* line 22, _contact.scss */
-    .contact form ::-moz-placeholder {
-      color: #fff; }
-    /* line 25, _contact.scss */
+    margin: 0 auto; }
+    /* line 16, _contact.scss */
     .contact form input[type=text] {
-      text-align: center;
       margin-bottom: 1.25rem;
       padding: 1rem;
-      background-color: #B6B6B6;
       width: 100%;
       border: hidden;
+      background-color: #e4e4e4;
       outline: none;
       border-radius: 0;
-      color: #fff;
-      font-size: .8rem;
-      font-weight: 300;
       letter-spacing: .15rem;
       font-family: Helvetica Neue, sans-serif; }
-    /* line 40, _contact.scss */
+    /* line 28, _contact.scss */
     .contact form textarea {
-      text-align: center;
       width: 100%;
       font-weight: 300;
       padding: 1rem;
-      background-color: #B6B6B6;
       border: hidden;
+      background-color: #e4e4e4;
       outline: none;
       border-radius: 0;
-      color: #fff;
-      font-size: .8rem;
-      font-weight: 300;
       letter-spacing: .15rem;
       font-family: Helvetica Neue, sans-serif; }
-  /* line 57, _contact.scss */
+  /* line 42, _contact.scss */
   .contact button {
     margin: 1.25rem 0;
     padding: .9375rem 1.875rem;
@@ -432,15 +396,15 @@ h1 {
     border: none;
     font-size: .9375rem;
     font-weight: 300;
-    color: #666666;
+    color: #fff;
     letter-spacing: .0625rem;
     outline: none; }
-  /* line 69, _contact.scss */
+  /* line 54, _contact.scss */
   .contact button:hover {
-    background-color: #B6B6B6;
+    background-color: #7db0f2;
     color: #fff;
     outline: none; }
-  /* line 75, _contact.scss */
+  /* line 60, _contact.scss */
   .contact button:active {
-    background-color: #B6B6B6;
+    background-color: #7db0f2;
     outline: none; }

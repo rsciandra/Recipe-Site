@@ -1,7 +1,5 @@
 .contact {
-    line-height: 2.2125rem;
-    text-align: center;
-    padding: 9rem 0 6rem;
+    padding: 5rem 0 1rem;
     img {
         padding: .3125rem 0 0 0;
         width: 100%;
@@ -15,40 +13,27 @@
         text-align: center;
         width: 90%;
         margin: 0 auto;
-        color: $light-gray;
-        ::-webkit-input-placeholder {
-            color: #fff;
-        }
-        ::-moz-placeholder {
-            color: #fff;  
-        }
         input[type=text]{
-            text-align: center;
             margin-bottom: 1.25rem;
             padding: 1rem;
-            background-color: #B6B6B6;
             width: 100%;
+            // border:  .0625rem solid $light-gray;
             border: hidden;
+            background-color: #e4e4e4; 
             outline: none;
             border-radius: 0;
-            color: #fff;
-            font-size: .8rem;
-            font-weight: 300;
             letter-spacing: .15rem;
             font-family: Helvetica Neue, sans-serif;
         }
         textarea {
-            text-align: center;
             width: 100%;
             font-weight: 300;
             padding: 1rem;
-            background-color: #B6B6B6;
-            border: hidden; 
+            // border: .0625rem solid $light-gray;
+            border: hidden;
+            background-color: #e4e4e4;  
             outline: none;
             border-radius: 0;
-            color: #fff;
-            font-size: .8rem;
-            font-weight: 300;
             letter-spacing: .15rem;
             font-family: Helvetica Neue, sans-serif;
             // resize: vertical;
@@ -61,19 +46,19 @@
         border: none;
         font-size: .9375rem;
         font-weight: 300;
-        color: $light-gray;
+        color: #fff;
         letter-spacing: .0625rem;
         outline: none;
     }
 
     button:hover {
-        background-color: #B6B6B6;
+        background-color: #7db0f2;
         color: #fff;
         outline: none;
     }
 
     button:active {
-        background-color: #B6B6B6;
+        background-color: #7db0f2;
         outline: none;
     }
 }

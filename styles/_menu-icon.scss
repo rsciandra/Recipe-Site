@@ -6,6 +6,9 @@
   top: 1rem;
   left: .4rem;
   cursor: pointer;
+  // @media screen and (min-width: $breakpoint-min) {
+  //   display: none;
+  // }
   span {
     display: block;
     position: absolute;
