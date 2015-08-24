@@ -106,6 +106,15 @@ nav {
     background: rgba(255, 255, 255, 0.95);
     width: 100%;
     position: relative; }
+  /* line 41, _navigation.scss */
+  nav #pull:after {
+    content: "";
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem; }
 
 @media screen and (max-width: 959px) {
   /* line 2, _logo.scss */
